@@ -85,6 +85,7 @@ ul > li > a:hover:after { transform: scaleX(1); }
 .text-container {
   display: table-cell;
   vertical-align: middle;
+  padding: 0 1rem;
 }
 .header {
   font-size: 4rem;
