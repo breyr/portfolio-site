@@ -242,6 +242,34 @@ ul > li > a:hover:after { transform: scaleX(1); }
 }
 /*#endregion*/
 
+/*#region Contact Section */
+.contact-wrapper {
+  min-height: 25vh;
+  height: auto;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.1);
+}
+.contact-me-box {
+  display: table;
+  text-align: center;
+  margin: 0.5rem;
+  color: white;
+}
+.contact-me-box > span {
+  display: table-cell;
+  vertical-align: middle;
+  padding: 0 1rem;
+}
+.contact-me-box > span > h1 {
+  font-size: 2rem;
+  padding: 0;
+  margin: 0;
+}
+/*#endregion*/
+
 /*#region Footer */
 .footer {
   padding: 1rem;
@@ -253,8 +281,7 @@ ul > li > a:hover:after { transform: scaleX(1); }
   font-size: 1.5em;
 }
 .footer h4 {
-  margin: 0; 
-  margin-bottom: 10px;
+  margin: 0;
 }
 span > a {
   color: white;
