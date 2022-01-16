@@ -68,7 +68,7 @@ ul > li > a:hover:after { transform: scaleX(1); }
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   top: 0;
   right: 0;
   background-color: #523a78;
@@ -95,7 +95,7 @@ ul > li > a:hover:after { transform: scaleX(1); }
 }
 .navOpenButton{
   position: fixed;
-  z-index: 1;
+  z-index: 1;   
   right: 0;
   font-size: 2.5rem;
   color: white;
@@ -134,7 +134,7 @@ ul > li > a:hover:after { transform: scaleX(1); }
   font-weight: lighter;
 }
 #subhead2 {
-  margin-bottom: 10rem;
+  margin-bottom: 6rem;
 }
 /*#endregion*/
 
@@ -293,10 +293,10 @@ span > a:hover {
 
 /*#region MEDIA QUERIES */
 @media only screen and (max-width: 800px) {
-  ul.nav{
+  ul.nav {
     display: none;
   }
-  .navOpenButton{
+  .navOpenButton {
     display: block;
   }
 }
