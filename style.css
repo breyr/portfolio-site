@@ -237,10 +237,12 @@ ul > li > a:hover:after { transform: scaleX(1); }
   margin: 2rem;
   color: white;
   background-color: rgba(255, 255, 255, 0.01);
+  transition: all .2s ease-in-out; 
 }
 .project:hover {
   background-color: rgba(255, 255, 255, 0.05);
   cursor: pointer;
+  transform: scale(1.1); 
 }
 .project-link-icons {
   font-size: 1rem;
