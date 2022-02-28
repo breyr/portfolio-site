@@ -3,7 +3,6 @@
 }
 body{
   min-height: 100vh;
-  max-height: -webkit-fill-available;
   display: flex;
   flex-direction: column;
   margin: auto 0;
@@ -113,7 +112,6 @@ ul > li > a:hover:after { transform: scaleX(1); }
 .header-container {
   display: table;
   height: 100vh;
-  max-height: -webkit-fill-available;
   width: 100%;
   text-align: center;
   margin: 0 auto;
