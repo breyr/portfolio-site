@@ -165,7 +165,7 @@ ul > li > a:hover:after { transform: scaleX(1); }
   letter-spacing: 0.25rem;
 }
 .about-me-text {
-  text-align: center; 
+  text-align: left; 
   font-size: 1.25rem;
 }
 /*#endregion*/
