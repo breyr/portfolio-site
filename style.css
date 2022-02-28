@@ -111,7 +111,9 @@ ul > li > a:hover:after { transform: scaleX(1); }
 /*#region Header Section */
 .header-container {
   display: table;
-  height: 100vh;
+  min-height: 100vh;
+  /* fix for mobile webkit */
+  min-height: -webkit-fill-available;
   width: 100%;
   text-align: center;
   margin: 0 auto;
